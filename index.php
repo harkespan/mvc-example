@@ -1,10 +1,16 @@
 <?php 
-	//bootstrap page
-	//load class controller terlebih dahulu
-	include_once("controllers/Controller.php");
+	/**
+	 * Bootstrap page
+	 * Require file autoload dari vendor
+	 */
+	require_once __DIR__ . '/vendor/autoload.php';
+	use Controllers\Mahasiswa;
+
+	/**
+	 * Buat objek dari kelas Mahasiswa
+	 */
+	$controller = new Mahasiswa();
 	
-	//buat objek dari class controller
-	$controller = new Controller();
 
 	//tentukan bagaimana halaman akan di-load
 	if(!isset($_GET['act']))
@@ -33,5 +39,6 @@
 				break;
 		}
 	}
+
 
 ?>
