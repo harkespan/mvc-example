@@ -9,7 +9,7 @@
 			<div class="col-md-12">
 				<div class="col-md-4">&nbsp;</div>
 				<div class="col-md-4"><h3>Data Mahasiswa</h3>
-					<table class="table table-responsive">
+					<table class="table table-responsive table-bordered table-striped">
 						<tr><td>No</td><td>NIM</td><td>Nama</td></tr>
 						<?php 
 

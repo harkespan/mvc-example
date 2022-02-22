@@ -1,8 +1,9 @@
-<?php
+<?php namespace Libraries;
+  use PDO;
   class Database {
     private static $instance = NULL;
 
-    private function __construct() {}
+    public function __construct() {}
 
     private function __clone() {}
 
