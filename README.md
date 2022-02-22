@@ -1,5 +1,7 @@
 # mvc-example
 Contoh pengaplikasian MVC menggunakan native PHP secara sederhana.
+Pada versi ini, digunakan style psr4 untuk autoloading.
+
 Dalam contoh ini tidak ada routing controller melalui address bar, melainkan menggunakan query browser biasa.
 
 Untuk tabel-nya dapat dibuat terlebih dahulu menggunakan database mysql
