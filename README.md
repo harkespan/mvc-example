@@ -1,4 +1,7 @@
 # mvc-example
+
+awali dengan composer update
+
 Contoh pengaplikasian MVC menggunakan native PHP secara sederhana.
 Pada versi ini, digunakan style psr4 untuk autoloading.
 
